@@ -15,7 +15,7 @@ app.use(cors({
   origin: process.env.CLIENT_URL,
   credentials: true
 }));
-const PORT=process.env.SERVER_PORT || 3002
+const PORT=process.env.PORT || 3002
 const __dirname=path.resolve()
 
 app.use("/api/user",userRouter)
