@@ -1,0 +1,30 @@
+@import "tailwindcss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-bottom: 80px;
+}
+.image-icon {
+  cursor: pointer;
+}
+.text1 {
+  border: 1px solid gray;
+  outline: none;
+
+  border-radius: 10px;
+  padding: 5px 10px;
+  position: relative;
+  left: -10px;
+  color: gray;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.file-input {
+  display: none;
+}
+#url-img {
+  margin: 0 0 10px;
+}
